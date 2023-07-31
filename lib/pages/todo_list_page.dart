@@ -73,7 +73,7 @@ class _TodoListPageState extends State<TodoListPage> {
 
                       if (text.isEmpty) {
                         setState(() {
-                          errorText = 'O título não pode ser fazio';
+                          errorText = 'O título não pode ser vazio';
                         });
                         return;
                       }
